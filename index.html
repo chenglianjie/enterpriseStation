@@ -377,7 +377,7 @@
     let newsArr = data.slice(0, 4);
     let doms = "";
     newsArr.forEach((item) => {
-      doms += `<div class="col-md-3 col-12"><img class="img-fluid lazyload " width="100%" data-src="${item.img}" alt="" /><p class="fs-6  news-title">${item.title}</p>
+      doms += `<div class="col-md-3 col-12"><img class="img-fluid lazyload " width="100%" data-src="${item.img}" alt="" /><div class="fs-6  news-title">${item.title}</div>
             </div>`;
     });
     newsBox.innerHTML = doms;
