@@ -77,6 +77,7 @@
 .footer-top {
   background-color: #f8f9fa;
   padding-bottom: 20px;
+  margin-top: 40px;
 }
 .footer-msg {
   display: flex;
@@ -117,7 +118,6 @@
   .news-title {
     padding: 10px;
     height: 70px;
-    /* line-height: 50px; */
     text-align: center;
     font-size: 12px !important;
     margin-bottom: 24px;
